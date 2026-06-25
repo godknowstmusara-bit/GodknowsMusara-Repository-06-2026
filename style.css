@@ -23,3 +23,25 @@ img {
   margin: 15px auto;
   border-radius: 10px;
 }
+.lion-gallery {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+}
+
+.lion-gallery img {
+  width: 100%;
+  max-width: 400px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+footer {
+  text-align: center;
+  margin-top: 50px;
+  padding: 20px;
+  font-family: sans-serif;
+  color: #666;
+  border-top: 1px solid #eee;
+}
